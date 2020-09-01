@@ -1,5 +1,6 @@
 {
-  "name": "budgitt",
+
+  "name": "konnector2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +10,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ademolamohammed/html-project.git"
+    "start" :"webpack-dev-server --open",
+    "build":"webpack"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +22,13 @@
   "homepage": "https://github.com/ademolamohammed/html-project#readme",
   "dependencies": {
     "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "sass-loader": "^10.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
